@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{12AFFA5D-357D-476B-A4FB-1926A64FA000}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SoftEtherApi</RootNamespace>
     <AssemblyName>SoftEtherApi</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Infrastructure\MD4.cs" />
     <Compile Include="Infrastructure\PocoCreator.cs" />
     <Compile Include="Infrastructure\SHA0.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="SoftEtherModel\AuthResult.cs" />
     <Compile Include="SoftEtherModel\ConnectionInfo.cs" />
     <Compile Include="SoftEtherModel\ConnectionList.cs" />
